@@ -64,3 +64,46 @@ from math import *
 # print(list[-3])
 # print(list[1:3])
 # print(list[1])
+
+####### LIST FUNCTIONS #######
+# lucky_numbers = [4, 8, 15, 16, 23, 42]
+# friends = ["Bob", "Joe", "John", "Riddler"]
+# friends.extend(lucky_numbers)
+# friends.append(45555)
+# friends.insert(1, "Bulat")
+# print(friends)
+
+####### TUPLES #######
+# coordinates = (4, 5)
+# coordinates[1] = 10  --------> error cannot modify tupple
+# print(coordinates[0])
+
+####### FUNCTIONS #######
+# def say_hi(name, age):
+#   print("Hello " + name + " you are " + age)
+# say_hi("Bulat", "20")
+
+####### RETURN STATEMENT #######
+# def cube(num):
+#   return  num ** 3
+# print(cube(2))
+
+####### IF STATEMENTS #######
+# is_male = True
+# is_tall = False
+# if is_male and is_tall:
+#   print("You are a male or tall or both")
+# elif is_male and not(is_tall):
+#   print("You are a not tall male")
+# else:
+#   print("You are not a male nor tall")
+
+####### IF STATEMENTS AND COMPARISONS #######
+# def max_num(num1, num2, num3):
+#   if num1 >= num2 and num1 >= num3:
+#     return num1
+#   elif num2 >= num1 and num2 >= num3:
+#     return num2
+#   else:
+#     return num3
+# print(max_num(1,2,3))
