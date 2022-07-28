@@ -102,8 +102,95 @@ from math import *
 # def max_num(num1, num2, num3):
 #   if num1 >= num2 and num1 >= num3:
 #     return num1
-#   elif num2 >= num1 and num2 >= num3:
+#   elif num2 != num1 and num2 >= num3:
 #     return num2
 #   else:
 #     return num3
 # print(max_num(1,2,3))
+# <= >= !=
+
+####### BUILDING A BETTER CALCULATOR #######
+# num1 = float(input("Enter first number: "))
+# op = input("Enter operator: ")
+# num2 = float(input("Enter second number: "))
+# if op == "+":
+#   print(num1 + num2)
+# elif op == "-":
+#   print(num1 - num2)
+# elif op == "/":
+#   print(num1 / num2)
+# elif op == "*":
+#   print(num1 * num2)
+# else:
+#   print("Invalid operator")
+
+####### DICTIONARIES (object) #######
+# monthConversion = {
+#   "Jan": "January",
+#   "Feb": "February",
+#   "Mar": "March",
+#   "Apr": "April",
+#   "Jun": "June",
+#   "Jul": "July",
+#   "Aug": "August",
+#   "Sep": "September",
+#   "Oct": "October",
+#   "Nov": "November",
+#   12: "December"
+# }
+# print(monthConversion["Nov"])
+# print(monthConversion.get("Nov"))
+# print(monthConversion.get("BRUH", "Not a valid key"))
+# print(monthConversion[12])
+
+####### WHILE LOOP #######
+# i = 1
+# while i <= 10:
+#   print(i)
+#   i += 1
+#
+# print("done with loop")
+
+####### GUESSING GAME #######
+# secret_word = "giraffe"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
+#
+# while guess != secret_word and not out_of_guesses:
+#   if guess_count < guess_limit:
+#     guess = input("Enter guess: ")
+#     guess_count += 1
+#   else:
+#     out_of_guesses = True
+#
+# if out_of_guesses:
+#   print("You are out of guesses!")
+# else:
+#   print("You guessed the secret word giraffe!")
+
+####### FOR LOOP #######
+# friends = ["A", "B", "C", "D"]
+# for friend in range(len(friends)):
+#   print(friend.__index__())
+
+####### EXPONENT FUNCTION #######
+# # print(2 ** 3)
+# def raise_to_power(base_number, power_number):
+#   result = 1
+#   for index in range(power_number):
+#     result *= base_number
+#   return result
+#
+# print(raise_to_power(2, 4))
+
+####### 2D LIST AND NESTED LOOPS #######
+
+
+
+
+
+
+
+
