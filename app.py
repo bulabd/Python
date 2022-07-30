@@ -186,11 +186,46 @@ from math import *
 # print(raise_to_power(2, 4))
 
 ####### 2D LIST AND NESTED LOOPS #######
+# number_grid = [
+#   [1, 2, 3, 4],
+#   [5, 6, 7],
+#   [8, 9],
+#   [0]
+# ]
+# print(number_grid[0][1])
+# for list in number_grid:
+#   for number in list:
+#     print(number)
 
+####### BUILD A TRANSLATOR #######
+# def translate(phrase):
+#   translated_phrase = ""
+#   for letter in phrase:
+#     if letter.lower() in "aeiou":
+#       if letter.isupper():
+#         translated_phrase += "G"
+#       else:
+#         translated_phrase += "g"
+#     else:
+#       translated_phrase += letter
+#   return translated_phrase
+# print(translate(input("Enter a phrase: ")))
 
+####### COMMENTS #######
+# This is a comment
+# '''
+# multiple line comment
+# '''
+# print('haha')
 
-
-
-
+####### TRY/EXCEPT #######
+# try:
+#   value = 10/0
+#   number = int(input("Enter a number: "))
+#   print(number)
+# except ZeroDivisionError as err:
+#   print(err)
+# except ValueError:
+#   print("Invalid input")
 
 
