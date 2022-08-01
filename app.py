@@ -228,4 +228,22 @@ from math import *
 # except ValueError:
 #   print("Invalid input")
 
+####### READING FILES #######
+# employee_file = open("employees.txt", "r")
+# for employee in employee_file.readlines():
+#   print(employee)
+# # print(employee_file.readlines()[1])
+# employee_file.close()
+
+####### WRITING TO FILES #######
+# employee_file = open("employees.txt", "a") # "r" or "a" or "w"
+# employee_file.write("\nToby - Human Resources")
+# employee_file.close()
+
+####### MODULES AND PIP #######
+# import useful_tools
+# print(useful_tools.roll_dice(10))
+# pip
+
+
 
