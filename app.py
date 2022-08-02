@@ -245,5 +245,11 @@ from math import *
 # print(useful_tools.roll_dice(10))
 # pip
 
+####### CLASSES AND OBJECTS #######
+# from Student import Student
+# student1 = Student("Jim", "Buisness", 3.1, False)
+# print(student1.is_on_probation)
+
+####### BUILDING MULTIPLE CHOICE QUIZ #######
 
 
